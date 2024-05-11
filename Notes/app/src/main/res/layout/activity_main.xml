@@ -10,15 +10,22 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/addNoteHeading"
+        android:id="@+id/noteHeading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="25dp"
         android:fontFamily="@font/poppins"
-        android:text="Your Notes"
+        android:text="My Notes"
         android:textColor="@color/orange"
         android:textSize="24sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:padding="16dp"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addbutton"
