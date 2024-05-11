@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04e703bc-168e-4315-9356-ad3eb344444b" name="Changes" comment="" />
+    <list default="true" id="04e703bc-168e-4315-9356-ad3eb344444b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Notes/app/src/main/java/com/example/notes/Note.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notes/app/src/main/java/com/example/notes/NotesDatabaseHelper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notes/app/src/main/res/font/poppins.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/app/src/main/java/com/example/notes/AddNoteActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/app/src/main/java/com/example/notes/AddNoteActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/app/src/main/java/com/example/notes/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/app/src/main/java/com/example/notes/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/app/src/main/res/drawable/baseline_add_task_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/app/src/main/res/drawable/baseline_add_task_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/app/src/main/res/layout/activity_add_note.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/app/src/main/res/layout/activity_add_note.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +25,28 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2gGwkBYSEjs61un9oCV4etlX7kz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,9 +57,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "android.gradle.sync.needed": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/Kasup S/Documents/GitHub/Noteapp/Notes"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Kasup S/Documents/GitHub/Noteapp",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
