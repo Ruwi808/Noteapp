@@ -16,10 +16,10 @@
         android:id="@+id/noteHeading"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/orange_border"
         android:backgroundTint="@color/orange"
-        android:hint="My Notes"
+        android:hint="@string/my_notes"
         android:maxLines="1"
         android:padding="12dp"
         android:textColorHint="@color/white"
@@ -29,7 +29,8 @@
         android:id="@+id/notesRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/noteHeading"
         android:padding="5dp"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton

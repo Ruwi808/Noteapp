@@ -3,4 +3,6 @@
     <string name="addNoteHeading">Add Note</string>
     <string name="enter_the_description">Enter the description</string>
     <string name="enter_the_title">Enter the title</string>
+    <string name="my_notes">My Notes</string>
+    <string name="edit_note">Edit Note</string>
 </resources>
