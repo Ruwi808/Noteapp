@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UpdateActivity"
+    tools:context=".UpdateNoteActivity"
     android:padding="16dp">
 
 
@@ -43,7 +43,7 @@
         />
 
     <EditText
-        android:id="@+id/UpdateContentEditText"
+        android:id="@+id/updateContentEditText"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:hint="@string/enter_the_description"
