@@ -29,8 +29,8 @@
         android:id="@+id/notesRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="65dp"
-        android:padding="16dp"/>
+        android:layout_marginTop="80dp"
+        android:padding="5dp"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addbutton"
