@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -9,22 +11,25 @@
     tools:context=".MainActivity"
     android:padding="16dp">
 
-    <TextView
+
+    <EditText
         android:id="@+id/noteHeading"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
         android:layout_marginTop="25dp"
-        android:fontFamily="@font/poppins"
-        android:text="My Notes"
-        android:textColor="@color/orange"
-        android:textSize="24sp" />
+        android:background="@drawable/orange_border"
+        android:backgroundTint="@color/orange"
+        android:hint="My Notes"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textColorHint="@color/white"
+        android:textSize="20sp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/notesRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="65dp"
         android:padding="16dp"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -44,5 +49,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/white" />
+
+
 
 </RelativeLayout>
